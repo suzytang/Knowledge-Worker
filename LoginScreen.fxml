@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indiefy.LoginScreenController">
+   <children>
+      <Button fx:id="login" layoutX="201.0" layoutY="397.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" stylesheets="@../Resources/Indiefy.css" text="Sign In" textFill="WHITE" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="199.0" />
+      <PasswordField fx:id="passwordBox" alignment="CENTER" layoutX="200.0" layoutY="350.0" promptText="Password" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+      <TextField fx:id="usernameBox" alignment="CENTER" layoutX="200.0" layoutY="312.0" promptText="Username" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+      <ImageView fx:id="logo" fitHeight="185.0" fitWidth="187.0" layoutX="208.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="324.0" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="205.4573516845703" AnchorPane.topAnchor="91.0">
+         <image>
+            <Image url="@../Image/Indiefy%20Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="music" layoutX="201.0" layoutY="473.0" mnemonicParsing="false" onAction="#handleNextButtonAction" stylesheets="@../Resources/Indiefy.css" text="Go to Music List" textFill="WHITE" visible="false" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="199.0" />
+      <Label fx:id="prompt" alignment="CENTER" layoutX="105.0" layoutY="428.0" prefHeight="35.0" prefWidth="391.0" textAlignment="CENTER" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="104.0" />
+   </children>
+</AnchorPane>

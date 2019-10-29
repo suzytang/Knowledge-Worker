@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indiefy.MusicListController">
+   <children>
+      <TableView fx:id="musicList" layoutX="44.0" layoutY="230.0" prefHeight="193.0" prefWidth="512.0" stylesheets="@../Resources/Indiefy.css" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="44.0">
+        <columns>
+          <TableColumn fx:id="albumColumn" prefWidth="131.0" text="Album" />
+          <TableColumn fx:id="artistColumn" prefWidth="137.0" text="Artist" />
+            <TableColumn fx:id="genreColumn" prefWidth="132.0" text="Genre" />
+            <TableColumn fx:id="yearColumn" prefWidth="119.0" text="Year" />
+        </columns>
+      </TableView>
+      <Label layoutX="207.0" layoutY="118.0" text="Music List">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
